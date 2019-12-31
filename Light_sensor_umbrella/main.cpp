@@ -1,5 +1,4 @@
- // Continuously sweep the servo through it's full range
- #include "mbed.h"
+  #include "mbed.h"
  #include "Servo.h"
  
  void open_shade();
@@ -13,7 +12,6 @@
  DigitalIn switch_2(p19);
  DigitalIn pushbutton(p20);
  Servo myservo1(p21);
- 
  
  bool shade_open = false;
  int main() {
